@@ -1,13 +1,17 @@
 {
-	"name": "advent_of_code_2",
-	"version": "1.0.0",
-	"description": "",
-	"dependencies": {
-		"@types/node": "^20.10.1",
-		"fs": "0.0.1-security",
-		"typescript": "^5.3.2"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC"
+  "name": "advent_of_code",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "typescript": "^5.3.2",
+    "@types/node": "^20.10.1",
+    "fs": "0.0.1-security"
+  },
+  "keywords": [
+    "advent",
+    "code",
+    "2023"
+  ],
+  "author": "@micael-jerry",
+  "license": "ISC"
 }
