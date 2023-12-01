@@ -1,0 +1,39 @@
+--- Day 1: Trebuchet?! ---
+
+Quelque chose ne va pas dans la production mondiale de neige, et vous avez été choisi pour y jeter un coup d'œil.
+Les elfes t'ont même remis une carte sur laquelle ils ont indiqué, à l'aide d'étoiles, les cinquante endroits
+les plus susceptibles de connaître des problèmes.
+
+Vous faites ce travail depuis assez longtemps pour savoir que pour rétablir les opérations d'enneigement,
+vous devez vérifier les cinquante étoiles avant le 25 décembre.
+
+Récupérez des étoiles en résolvant des énigmes. Deux puzzles seront disponibles pour chaque jour du calendrier
+de l'Avent ; le second se débloque lorsque vous avez terminé le premier. Chaque énigme donne droit à une étoile.
+Bonne chance !
+
+Vous essayez de demander pourquoi ils ne peuvent pas utiliser une machine météorologique ("pas assez puissante")
+et où ils vous envoient ("le ciel") et pourquoi votre carte semble presque vide ("vous posez vraiment beaucoup de
+questions") et attendez, est-ce que vous venez de dire le ciel ("bien sûr, d'où pensez-vous que vient la neige")
+quand vous réalisez que les Elfes sont déjà en train de vous charger dans un trébuchet ("s'il vous plaît, ne
+bougez pas, nous devons vous attacher").
+
+Alors qu'ils procèdent aux derniers ajustements, ils découvrent que leur document d'étalonnage (votre entrée de
+puzzle) a été modifié par une très jeune elfe qui était apparemment ravie de montrer ses talents artistiques.
+Par conséquent, les Elfes ont du mal à lire les valeurs sur le document.
+
+Le document d'étalonnage nouvellement amélioré se compose de lignes de texte ; chaque ligne contenait à
+l'origine une valeur d'étalonnage spécifique que les Elfes doivent maintenant récupérer. Sur chaque ligne,
+la valeur d'étalonnage peut être trouvée en combinant le premier chiffre et le dernier chiffre (dans cet ordre)
+pour former un seul nombre à deux chiffres.
+
+Par exemple:
+
+1abc2
+pqr3stu8vwx
+a1b2c3d4e5f
+treb7uchet
+
+Dans cet exemple, les valeurs d'étalonnage de ces quatre lignes sont 12, 38, 15 et 77. En les additionnant,
+on obtient 142.
+
+Considérez l'ensemble de votre document d'étalonnage. Quelle est la somme de toutes les valeurs d'étalonnage ?

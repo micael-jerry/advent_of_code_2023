@@ -1,0 +1,16 @@
+Votre calcul n'est pas tout à fait correct. Il semble que certains chiffres soient en fait épelés avec des
+lettres: one, two, three, four, five, six, seven, eight and nine comptent également comme des "chiffres" valables.
+
+Muni de ces nouvelles informations, vous devez maintenant trouver le vrai premier et le vrai dernier chiffre
+de chaque ligne. Par exemple :
+
+two1nine
+eightwothree
+abcone2threexyz
+xtwone3four
+4nineeightseven2
+zoneight234
+7pqrstsixteen
+
+Dans cet exemple, les valeurs d'étalonnage sont 29, 83, 13, 24, 42, 14 et 76. En les additionnant, on obtient 281.
+
