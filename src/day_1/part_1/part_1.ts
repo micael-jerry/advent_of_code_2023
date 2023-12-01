@@ -9,7 +9,7 @@ const findCalibrationOneLine = (line: string): number => {
     }
   }
   let last: string = "";
-  for (let i = line.length; i >= line.indexOf(first); i--) {
+  for (let i = line.length - 1; i >= line.indexOf(first); i--) {
     if (!isNaN(Number(line[i]))) {
       last = line[i];
       break;
