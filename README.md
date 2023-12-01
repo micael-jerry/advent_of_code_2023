@@ -1,12 +1,13 @@
-# Advent of Code
+# [Advent of Code](https://adventofcode.com/)
 
 ![Advent of Code](https://img.shields.io/badge/Advent%20of%20Code-2023-brightgreen)
 ![Language](https://img.shields.io/badge/Language-Typescript-blue)
+![Language](https://img.shields.io/badge/Language-Javascript-yellow)
 
 ## Description
 
-Ce référentiel contient mes solutions pour les énigmes de l'Advent of Code 2023. J'ai participé à ce défi de programmation pour améliorer mes compétences en résolution de problèmes et en algorithmique.
+This repository contains my solutions for the Advent of Code 2023 puzzles. I participated in this programming challenge to improve my problem-solving and algorithmic skills.
 
-## Aperçu
+## Overview
 
-Chaque dossier de ce référentiel est nommé en fonction du jour de l'événement correspondant. Chaque dossier contient les fichiers nécessaires pour résoudre le problème de ce jour-là.
+Each folder in this repository is named according to the day of the corresponding event. Each folder contains the files needed to solve that day's problem.
