@@ -9,7 +9,7 @@ const readFileToStringArray = (fileName) => {
 const arrayToJsonFile = (array, fileNameOutput) => {
   const content = JSON.stringify(array);
   fs.writeFileSync(fileNameOutput, content, 'utf8');
-  console.log('SUCCES');
+  console.log("SUCCES");
 }
 
 const fileToJsonFile = (input, output) => {
@@ -17,4 +17,4 @@ const fileToJsonFile = (input, output) => {
   arrayToJsonFile(stringArray, output);
 }
 
-module.exports.fileToJsonFile = fileToJsonFile;
+fileToJsonFile('./day_1/part_2/input.txt','./day_1/part_2/input.json');
