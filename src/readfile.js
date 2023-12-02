@@ -17,4 +17,4 @@ const fileToJsonFile = (input, output) => {
   arrayToJsonFile(stringArray, output);
 }
 
-fileToJsonFile('./day_2/part_1/input.txt','./day_2/part_1/input.json');
+fileToJsonFile('./day_2/part_2/input.txt','./day_2/part_2/input.json');
