@@ -1,0 +1,30 @@
+Le lutin dit qu'ils ont arrêté de produire de la neige parce qu'ils n'ont plus d'eau ! Il ne sait pas
+exactement pourquoi l'eau s'est arrêtée, mais il peut t'indiquer comment te rendre à la source d'eau
+pour vérifier par toi-même. C'est juste devant vous !
+
+Alors que vous poursuivez votre promenade, l'Elfe pose une deuxième question : dans chaque jeu auquel
+vous avez joué, quel est le plus petit nombre de cubes de chaque couleur qui aurait pu se trouver
+dans le sac pour que le jeu soit possible ?
+
+Reprenons l'exemple des jeux précédents :
+
+Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green
+Game 2: 1 blue, 2 green; 3 green, 4 blue, 1 red; 1 green, 1 blue
+Game 3: 8 green, 6 blue, 20 red; 5 blue, 4 red, 13 green; 5 green, 1 red
+Game 4: 1 green, 3 red, 6 blue; 3 green, 6 red; 3 green, 15 blue, 14 red
+Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green
+
+- Dans le jeu 1, le jeu aurait pu être joué avec seulement 4 cubes rouges, 2 verts et 6 bleus. Si une
+  couleur avait eu ne serait-ce qu'un cube de moins, le jeu aurait été impossible.
+- Le jeu 2 aurait pu être joué avec un minimum de 1 cube rouge, 3 verts et 4 bleus.
+- Le jeu 3 devait être joué avec au moins 20 cubes rouges, 13 cubes verts et 6 cubes bleus.
+- Le jeu 4 nécessite au moins 14 cubes rouges, 3 verts et 15 bleus.
+- Pour le jeu 5, il faut au moins 6 cubes rouges, 3 verts et 2 bleus dans le sac.
+
+La puissance d'un jeu de cubes est égale au nombre de cubes rouges, verts et bleus multipliés ensemble.
+La puissance de l'ensemble minimum de cubes dans le jeu 1 est de 48. Dans les jeux 2 à 5, elle est
+respectivement de 12, 1560, 630 et 36. En additionnant ces cinq puissances, on obtient la somme de 2286.
+
+Pour chaque jeu, trouvez l'ensemble minimum de cubes qui doivent avoir été présents.
+Quelle est la somme des puissances de ces ensembles ?
+
