@@ -1,0 +1,37 @@
+L'ingénieur trouve la pièce manquante et l'installe dans le moteur ! Alors que le moteur s'anime, vous sautez dans
+la nacelle la plus proche, enfin prêt à monter jusqu'à la source d'eau.
+
+Mais vous n'avez pas l'air d'aller très vite. Peut-être y a-t-il encore un problème ? Heureusement, la nacelle
+dispose d'un téléphone étiqueté "aide", vous le décrochez et l'ingénieur vous répond.
+
+Avant que vous ne puissiez expliquer la situation, elle vous suggère de regarder par la fenêtre. Le mécanicien est
+là, tenant un téléphone d'une main et faisant un signe de l'autre. Vous avancez si lentement que vous n'avez même
+pas quitté la gare. Vous sortez de la nacelle.
+
+La pièce manquante n'était pas le seul problème : l'un des engrenages du moteur est défectueux. Un engrenage est
+un symbole * adjacent à exactement deux numéros de pièces. Le rapport de démultiplication est le résultat de la
+multiplication de ces deux nombres.
+
+
+Cette fois-ci, vous devez trouver le rapport de chaque engrenage et les additionner pour que l'ingénieur puisse
+déterminer quel engrenage doit être remplacé.
+
+Reprenons le même schéma du moteur :
+
+467..114..
+...*......
+..35..633.
+......#...
+617*......
+.....+.58.
+..592.....
+......755.
+...$.*....
+.664.598..
+
+Dans ce schéma, il y a deux engrenages. Le premier est en haut à gauche ; il porte les références 467 et 35, son
+rapport est donc de 16345. Le deuxième engrenage se trouve en bas à droite ; son rapport de transmission est de
+451490. (Le * adjacent à 617 n'est pas un engrenage car il n'est adjacent qu'à un seul numéro de pièce). En
+additionnant tous les rapports, on obtient 467835.
+
+Quelle est la somme de tous les rapports de démultiplication figurant dans le schéma de votre moteur ?
