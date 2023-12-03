@@ -1,0 +1,38 @@
+--- Day 3: Gear Ratios ---
+
+L'elfe et vous finissez par atteindre une station de télécabine ; il vous dit que la télécabine vous emmènera
+jusqu'à la source d'eau, mais qu'il ne peut pas vous emmener plus loin. Vous entrez à l'intérieur.
+
+Il ne faut pas longtemps pour trouver les nacelles, mais il semble y avoir un problème : elles ne bougent pas.
+
+"Aaah!"
+
+Vous vous retournez pour voir un Elfe un peu gras avec une clé à molette et un air surpris. "Désolé, je
+n'attendais personne ! La télécabine ne fonctionne pas pour l'instant, il faudra encore un peu de temps avant
+que je puisse la réparer. " Vous lui proposez votre aide.
+
+L'ingénieur explique qu'il semble manquer une pièce dans le moteur, mais que personne ne sait laquelle. Si
+vous pouvez additionner tous les numéros de pièces du schéma du moteur, il devrait être facile de trouver la
+pièce manquante.
+
+Le schéma du moteur (l'entrée de votre puzzle) consiste en une représentation visuelle du moteur. Il y a
+beaucoup de chiffres et de symboles que vous ne comprenez pas vraiment, mais apparemment, tout chiffre
+adjacent à un symbole, même en diagonale, est un "numéro de pièce" et doit être inclus dans votre somme.
+(Les points (.) ne sont pas considérés comme des symboles).
+
+Voici un exemple de schéma de moteur :
+
+467..114..
+...*......
+..35..633.
+......#...
+617*......
+.....+.58.
+..592.....
+......755.
+...$.*....
+.664.598..
+
+Dans ce schéma, deux nombres ne sont pas des numéros de pièces car ils ne sont pas adjacents à un symbole :
+114 (en haut à droite) et 58 (au milieu à droite). Tous les autres nombres sont adjacents à un symbole et
+sont donc des numéros de pièce ; leur somme est 4361.
