@@ -60,7 +60,7 @@ const partNumberInLine = (
           sum += Number(line.slice(i, lastIndex + 1));
         }
       }
-      i += lastIndex + 1;
+      i = lastIndex + 1;
     } else {
       i++;
     }
@@ -79,18 +79,5 @@ const sumPartNumberEngineSchematic = (lines: string[]): number => {
   }
   return sum;
 };
-
-let tabTest: string[] = [
-  "467..114..",
-  "...*......",
-  "..35..633.",
-  "......#...",
-  "617*......",
-  ".....+.58.",
-  "..592.....",
-  "......755.",
-  "...$.*....",
-  ".664.598..",
-]; // non additionner: 114 et 58    - TOTAL = 4361;
 
 console.log(sumPartNumberEngineSchematic(input));
