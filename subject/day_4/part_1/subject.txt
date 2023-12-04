@@ -1,0 +1,55 @@
+--- Day 4: Scratchcards ---
+
+La télécabine vous emmène en haut. Curieusement, le sol ne semble pas vous accompagner ; vous n'êtes pas en train de
+gravir une montagne. Alors que le cercle de l'île de Snow Island s'éloigne sous vos pieds, une nouvelle masse
+continentale apparaît soudain au-dessus de vous ! La télécabine vous transporte à la surface de la nouvelle île et
+entre en trombe dans la station.
+
+Lorsque vous sortez de la nacelle, la première chose que vous remarquez est que l'air est beaucoup plus chaud que
+sur l'île des Neiges. Il est également très humide. Est-ce ici que se trouve la source d'eau ?
+
+Vous remarquez ensuite qu'un elfe est assis sur le sol, de l'autre côté de la station, dans ce qui semble être
+une pile de cartes carrées colorées.
+
+"Oh ! Bonjour ! L'elfe se précipite vers vous, tout excité. "En quoi puis-je vous être utile ? Vous
+l'interrogez sur les sources d'eau.
+
+"Je ne sais pas trop, je m'occupe juste de la télécabine. Cela ressemble à quelque chose que nous pourrions avoir,
+cependant - c'est l'île de l'île, après tout ! Je parie que le jardinier le saurait. Mais il est sur une autre île,
+celle qui est entourée d'eau, pas celle qui flotte. Il faut vraiment que nous trouvions un meilleur système de
+dénomination. Je vais vous dire : si vous pouvez m'aider rapidement, je vous prêterai mon bateau et vous pourrez
+aller voir le jardinier. J'ai reçu toutes ces cartes à gratter en cadeau, mais je n'arrive pas à savoir ce que
+j'ai gagné".
+
+L'elfe vous conduit vers la pile de cartes colorées. Vous y découvrez des dizaines de cartes à gratter, dont la
+couverture opaque est déjà grattée. En prenant une carte, vous constatez qu'elle contient deux listes de numéros
+séparées par une barre verticale (|) : la liste des numéros gagnants et la liste des numéros que vous possédez.
+Vous organisez ces informations dans un tableau (votre entrée dans le puzzle).
+
+Pour autant que l'Elfe ait pu s'en rendre compte, vous devez déterminer quels sont les numéros que vous possédez
+qui figurent dans la liste des numéros gagnants. La première correspondance donne un point à la carte et chaque
+correspondance suivante double la valeur de la carte.
+
+Exemple:
+
+Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53
+Card 2: 13 32 20 16 61 | 61 30 68 82 17 32 24 19
+Card 3:  1 21 53 59 44 | 69 82 63 72 16 21 14  1
+Card 4: 41 92 73 84 69 | 59 84 76 51 58  5 54 83
+Card 5: 87 83 26 28 32 | 88 30 70 12 93 22 82 36
+Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11
+
+Dans l'exemple ci-dessus, la carte 1 comporte cinq numéros gagnants (41, 48, 83, 86 et 17) et vous avez huit
+numéros (83, 86, 6, 31, 17, 9, 48 et 53). Parmi les numéros que vous avez, quatre d'entre eux (48, 83, 17 et 86)
+sont des numéros gagnants ! Cela signifie que la carte 1 vaut 8 points (1 pour le premier match, puis trois
+fois le double pour chacun des trois matchs suivants).
+
+  - La carte 2 comporte deux numéros gagnants (32 et 61), elle vaut donc 2 points.
+  - La carte 3 a deux numéros gagnants (1 et 21), elle vaut donc 2 points.
+  - La carte 4 a un numéro gagnant (84), elle vaut donc 1 point.
+  - La carte 5 n'a aucun numéro gagnant, elle ne vaut donc aucun point.
+  - La carte 6 n'a aucun numéro gagnant, elle ne vaut donc aucun point.
+
+Ainsi, dans cet exemple, la pile de cartes à gratter de l'Elfe vaut 13 points.
+
+Prenez place dans la grande pile de cartes colorées. Combien de points valent-elles au total ?
